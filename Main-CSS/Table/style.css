@@ -1,0 +1,461 @@
+:root {
+    --coolGray-500:#6B7280;
+--coolGray-600:#4B5563;
+
+--gray-500:#71717A;
+--gray-600:#52525B;
+
+--red-500: #EF4444;
+--red-600: #DC2626;
+
+--orange-500: #F97316;
+--orange-600: #EA580C;
+
+--amber-500: #F59E0B;
+--amber-600: #D97706;
+
+--yellow-500: #EAB308; 
+--yellow-600: #CA8A04;
+
+--lime-500 : #84CC16;
+--lime-600 : #65A30D;
+
+--green-500 : #22C55E;
+--green-600 : #16A34A;
+
+--emerald-500 : #10B981;
+--emerald-600 : #059669;
+
+--teal-500 : #14B8A6;
+--teal-600 : #0D9488;
+
+--cyan-500 : #06B6D4;
+--cyan-600 : #0891B2;
+
+--sky-500: #0EA5E9;
+--sky-600: #0284C7;
+
+--blue-500: #3B82F6;
+--blue-600: #2563EB;
+
+--indigo-500 : #6366F1;
+--indigo-600 : #4F46E5;
+
+--violet-500 : #8B5CF6;
+--violet-600 : #7C3AED;
+
+--rose-500: #F43F5E;
+--rose-600 : #E11D48;
+}
+
+/* Start Section -01 */
+.section1 {
+    background-color: var(--gray-600);
+    height: 80vh;
+    margin: 2rem 0;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+h2 {
+    text-align: center;
+    color: var(--lime-500);
+    font-size: 1.6rem;
+}
+table1 {
+    color: #fff;
+    font-size: 1.3rem;
+}
+th,td {
+    padding: 0.6rem 0.9rem;
+}
+
+/* End Section 0-1 */
+
+/* Start Section -02 */
+.section2 {
+    background-color: var(--gray-500);
+    height: 80vh;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+table {
+    color: #fff;
+    font-size: 1.3rem;
+}
+.practice2-th,.practice2-td {
+    border: 3px solid var(--teal-500);
+    padding: 0.9rem;
+}
+
+/* End Section 0-2 */
+
+/* Start Section -03 */
+.section3 {
+    background-color: var(--coolGray-600);
+    height: 100vh;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+.practice3-table {
+    color: #fff;
+    font-size: 1.3rem;
+
+    border-spacing: 1rem;
+}
+.practice3-th,.practice3-td {
+    border: 3px solid var(--teal-500);
+    padding: 0.9rem;
+}
+
+/* End Section 03- */
+
+/* Start Section -04 */
+.section4 {
+    background-color: var(--coolGray-500);
+    height: 100vh;
+    margin: 2rem 0;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+.practice4-table {
+    color: #fff;
+    font-size: 1.3rem;
+
+    border-collapse: collapse;
+}
+.practice4-th,.practice4-td {
+    border: 2px solid var(--teal-500);
+    padding: 0.9rem;
+}
+
+/* End Section -04 */
+
+/* Start Section -05 */
+.section5 {
+    background-color: var(--coolGray-500);
+    height: 100vh;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+.practice5-table {
+    color: #fff;
+    font-size: 1.3rem;
+
+    border-spacing: 0.6rem;
+}
+.practice5-th,.practice5-td {
+    border: 3px solid var(--teal-500);
+    padding: 0.9rem;
+}
+
+/* End Section -05 */
+
+/* Start Section -06 */
+.section6 {
+    background-color: var(--coolGray-500);
+    height: 100vh;
+    margin: 2rem 0;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+.practice6-table {
+    color: #fff;
+    font-size: 1.3rem;
+
+    border-collapse: collapse;
+    border: solid thin;
+}
+.practice6-th,.practice6-td {
+    border: 3px solid var(--teal-500);
+    padding: 0.9rem 2rem;
+}
+caption {
+    padding-bottom: 1rem;
+}
+.practice6-th {
+    font-weight: normal;
+    padding: 0.6rem 0.9rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.practice6-td {
+    white-space: nowrap;
+    border-style:  none solid;
+
+}
+
+/* End Section -06 */
+
+/* Start Section -07 */
+.section7 {
+    background-color: var(--coolGray-600);
+    height: 100vh;
+    margin: 2rem 0;
+
+    display: grid;
+    place-content: center;
+    
+}
+
+.practice7-table {
+    color: #fff;
+    font-size: 1.3rem;
+
+    border-spacing: 0.9rem;
+}
+.practice7-th,.practice7-td {
+    border: 3px solid var(--teal-500);
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.practice7-th {
+    background: var(--rose-500);
+    transition: 0.6s;
+}
+.practice7-th:hover {
+    background-color: var(--lime-500);
+    color: var(--rose-500);
+}
+
+/* End Section -07 */
+
+/* Start Section -08 */
+
+.section8 {
+    background: var(--gray-600);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+
+    
+
+}
+.practice8-table {
+    width: 80%;
+    border-collapse: collapse;
+
+}
+.practice8-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--teal-500);
+
+}
+.practice8-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--teal-500);
+
+}
+.practice8-tr:nth-child(odd){
+    background: var(--emerald-500);
+}
+
+/* End Section -08 */
+
+/* Start Section -09 */
+
+.section9 {
+    background: var(--gray-500);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+}
+.practice9-table {
+    width: 80%;
+    border-collapse: collapse;
+
+}
+.practice9-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--lime-500);
+
+}
+.practice9-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--lime-500);
+
+}
+col:nth-child(odd){
+    background: var(--emerald-500);
+}
+
+/* End Section -09 */
+
+/* Start Section -10 */
+
+.section10 {
+    background: var(--gray-500);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+}
+.practice10-table {
+    width: 80%;
+    border-collapse: collapse;
+
+}
+.practice10-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice10-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice10-thead {
+    background-color: var(--lime-600);
+}
+.practice10-tr:hover {
+    background-color: var(--rose-600);
+}
+
+/* End Section -10 */
+
+/* Start Section -11 */
+
+.section11 {
+    background: var(--gray-500);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+}
+.practice11-table {
+    width: 80%;
+    border-collapse: separate;
+
+}
+.practice11-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice11-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice11-thead {
+    background-color: var(--lime-600);
+}
+.practice11-tr:hover {
+    background-color: var(--rose-600);
+}
+
+/* End Section -11 */
+
+/* Start Section -12 */
+.section12 {
+    background: var(--gray-500);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+}
+.practice12-table {
+    width: 80%;
+    
+
+}
+.practice12-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice12-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice12-thead {
+    background-color: var(--lime-600);
+}
+.practice12-tr:hover {
+    background-color: var(--rose-600);
+}
+input {
+    width: 80%;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+/* End Section -12 */
+
+/* Start Section -13 */
+.section13 {
+    background: var(--gray-500);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 2rem 0;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.practice13-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.practice13-th {
+    padding: 0.6rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice13-td {
+    padding: 0.3rem;
+    text-align: left;
+    border: 2px solid var(--emerald-500);
+
+}
+.practice13-thead {
+    background-color: var(--lime-600);
+}
+.practice13-tr:hover {
+    background-color: var(--rose-600);
+}
+
+h3 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+/* End Section -13 */
